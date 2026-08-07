@@ -1,0 +1,22 @@
+DEMONSTRATION EMPLOYEE POLICY — ENGLISH
+
+Document ID: HR-EN-001
+Version: 1.0
+
+Notice: This is a synthetic company document created only for demonstrating the bilingual enterprise RAG system.
+
+1. Working Hours
+
+The standard working week is Sunday through Thursday. Employees work from 8:00 a.m. until 5:00 p.m., including a one-hour lunch break. Employees must obtain approval from their line manager before working outside the standard schedule.
+
+2. Annual Leave
+
+Full-time employees receive 24 working days of annual leave after completing one year of service. Leave requests should normally be submitted at least 10 working days before the planned leave. All leave requests require approval from the employee's line manager.
+
+3. Remote Work
+
+Eligible employees may work remotely for up to two days per week. Remote-working days must be agreed upon with the line manager in advance. Employees working remotely must remain available during normal working hours and follow all company information-security requirements.
+
+4. Information Security
+
+Employees must never share passwords or authentication codes. Confidential company information must only be stored in approved systems. Suspected security incidents must be reported to the IT security team within one hour of discovery.
