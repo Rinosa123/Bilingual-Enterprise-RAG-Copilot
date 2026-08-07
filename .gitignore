@@ -216,3 +216,37 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project secrets
+.env
+.env.*
+!.env.example
+
+# Local datasets
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Generated artifacts
+artifacts/*
+!artifacts/.gitkeep
+
+# Vector databases and experiment results
+vector_store/
+chroma_db/
+qdrant_storage/
+mlruns/
+wandb/
+
+# Downloaded model weights
+models/
+*.safetensors
+*.gguf
+*.pt
+*.pth
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
