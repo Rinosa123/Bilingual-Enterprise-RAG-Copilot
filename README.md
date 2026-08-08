@@ -1,7 +1,7 @@
 # Arabic–English Enterprise RAG Copilot
 
 [![Python](https://img.shields.io/badge/Python-3.12%20%7C%203.13-blue)](https://www.python.org/)
-[![Tests](https://img.shields.io/badge/tests-29%20passing-brightgreen)](#testing)
+[![Unit Tests](https://github.com/Rinosa123/Bilingual-Enterprise-RAG-Copilot/actions/workflows/tests.yml/badge.svg)](https://github.com/Rinosa123/Bilingual-Enterprise-RAG-Copilot/actions/workflows/tests.yml)
 [![Languages](https://img.shields.io/badge/languages-Arabic%20%7C%20English-orange)](#key-capabilities)
 [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 
