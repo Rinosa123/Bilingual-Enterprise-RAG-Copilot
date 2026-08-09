@@ -7,7 +7,13 @@
 
 A bilingual enterprise Retrieval-Augmented Generation system that retrieves Arabic and English documents, reranks multilingual evidence, generates grounded answers, validates citations and safely refuses unsupported questions.
 
-[![Open End-to-End Demo in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rinosa123/Bilingual-Enterprise-RAG-Copilot/blob/main/notebooks/05_end_to_end_rag.ipynb)
+[![Live Streamlit Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://rinosa-bilingual-rag-copilot.streamlit.app) [![Open End-to-End Demo in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Rinosa123/Bilingual-Enterprise-RAG-Copilot/blob/main/notebooks/05_end_to_end_rag.ipynb)
+
+<p align="center">
+  <a href="https://rinosa-bilingual-rag-copilot.streamlit.app">
+    <img src="docs/images/streamlit-demo.png" alt="Arabic–English Enterprise RAG Copilot demonstration" width="900">
+  </a>
+</p>
 
 > Portfolio engineering prototype demonstrating multilingual retrieval, cross-language reranking, grounded generation, citation safety and evaluation.
 
@@ -349,7 +355,7 @@ The end-to-end experiment was validated with:
 
 ## Limitations
 
-This repository is a focused portfolio prototype, not a deployed production system.
+This repository is a deployed portfolio demonstration, not a production system. The hosted interface presents verified evaluation cases, while full GPU inference is reproducible through Google Colab.
 
 Current limitations include:
 
@@ -368,18 +374,23 @@ The reported 5/5 result demonstrates expected behaviour on the included checks a
 
 ## Roadmap
 
-* Expand the bilingual evaluation dataset
-* Add PDF and DOCX ingestion
-* Add persistent vector storage
-* Tune hybrid-fusion weights
-* Add automated groundedness and faithfulness evaluation
-* Add adversarial and prompt-injection tests
-* Add document-level access control
-* Build a FastAPI service
-* Build a Streamlit demonstration interface
-* Add Docker packaging
-* Add GitHub Actions continuous integration
-* Add monitoring and experiment tracking
+### Completed
+
+* [x] Build a [Streamlit demonstration interface](https://rinosa-bilingual-rag-copilot.streamlit.app)
+* [x] Add [GitHub Actions continuous integration](https://github.com/Rinosa123/Bilingual-Enterprise-RAG-Copilot/actions)
+
+### Next
+
+* [ ] Expand the bilingual evaluation dataset
+* [ ] Add PDF and DOCX ingestion
+* [ ] Add persistent vector storage
+* [ ] Tune hybrid-fusion weights
+* [ ] Add automated groundedness and faithfulness evaluation
+* [ ] Add adversarial and prompt-injection tests
+* [ ] Add document-level access control
+* [ ] Build a FastAPI service
+* [ ] Add Docker packaging
+* [ ] Add monitoring and experiment tracking
 
 ## Responsible Use
 
